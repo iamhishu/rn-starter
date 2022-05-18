@@ -21,6 +21,11 @@ const HomeScreen = ({ navigation }) => {
         onPress={() => navigation.navigate('ImageScreeen')}
       />
 
+      <TouchableOpacity onPress={() => navigation.navigate('ColorGentrator')} >
+        <Text style={styles.text}>Go To Color Genrator</Text>
+      </TouchableOpacity>
+
+
     </View>
   );
 };
